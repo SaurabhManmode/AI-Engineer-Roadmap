@@ -10,6 +10,8 @@ name = input("What is your name? ")
 
 name = name.strip() #strip is used to remove any leading or trailing whitespace from the input
 name = name.capitalize()
+
+name=name.title() #title is used to capitalize the first letter of each word in the string
 print("Hello ",end="") #end is used to change the end character of the print statement, by default it is a new line
 print(name)
 
