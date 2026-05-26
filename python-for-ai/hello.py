@@ -15,6 +15,11 @@ name=name.title() #title is used to capitalize the first letter of each word in 
 print("Hello ",end="") #end is used to change the end character of the print statement, by default it is a new line
 print(name)
 
+name=name.strip().title() #chaining methods, it is a way to call multiple methods on the same object in a single line of code
+
+print("hello title striped ",name)
+
+
 print("Hello, " + name) #concatenation
 print("Hello,",name) #multiple arguments
 
