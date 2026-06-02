@@ -10,5 +10,9 @@ city="NewYork"
 
 print(user,age,city)
 
-x,y = input("enter two number:").split() # multiple input
+x,y = input("enter two number: ").split() # multiple input
 print(x,y)
+
+i = int(input("how od are you"))
+f=float(input("how much is 7/2 :"))
+print(i,f)
