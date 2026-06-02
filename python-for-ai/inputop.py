@@ -9,3 +9,6 @@ age=30
 city="NewYork"
 
 print(user,age,city)
+
+x,y = input("enter two number:").split() # multiple input
+print(x,y)
