@@ -1,0 +1,1 @@
+print("Hello World") #print is used to display output on the screen
