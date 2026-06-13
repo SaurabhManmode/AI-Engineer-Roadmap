@@ -6,3 +6,7 @@ print("Hello Saurabh \nI am a good boy") #escape sequence
 """
 Hello saurabh multi line comment
 """
+
+print("Hey how are you")
+
+print("My name is \"saurabh\"")
